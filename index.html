@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+    <header>
+
+        <div class="user">
+            <img src="Promo-Facebook-Facebook right column.jpeg">
+            <h3 class="name">Anushka Rastogi</h3>
+            <p class="post">Web Developer</p>
+            
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="Home" id="Home">
+            <h3>Hey people...</h3>
+            <h3 class="name">My name is <span>Anushka Rastogi</span></h3>
+            <h3 class="post">I'm a <span class="typing-text">Web Developer</span></h3>
+
+            <a href="#"><button class="btn">Hire me</button></a>
+
+            <div class="Share">
+
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        
+        </section>
+
+        <section class="About" id="About">
+            <h1 class="heading">About me</h1>
+            <div class="content">
+                <h3 class="name">My name is <span>Anushka Rastogi</span></h3>
+                <p>
+                    Hi. I'm Anushka, nice to meet you. Please take a look around!
+                </p>
+                <p> 
+                    I'm a Web Developer and Competitive Programmer. I'm passionate about Coding, and tries to solve the problem of any level.
+                    And I love creating, designing website but still exploring other technologies and frameworks that catches my interest!
+                    I've always been drawn to both competitive programming and web development.
+                    If you are looking for a developer to add to your team, I'd love to hear from you!
+                </p>
+                <a href="#">Download CV</a>
+            </div>
+
+        </section>
+        <section class="Education" id="Education">
+            <h1 class="heading">My Education </h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="year">2020-Current</div>
+                    <h3>Bachelor of Technology</h3>
+                    <p>Currently, I'm doing B.Tech from  
+                    Jaypee University of Engineering and Technology,Guna,Madhya Pradesh
+                    in CSE department.
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="Skills" id="Skills">
+            <h1 class="heading">My Skills </h1>
+            <div class="Progress">
+                <h3>C/C++ <span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="Progress">
+                <h3>HTML <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="Progress">
+                <h3>CSS <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="Progress">
+                <h3>Python <span>68%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="Progress">
+                <h3>JavaScript <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </section>
+        
+        <section class="Contact" id="Contact">
+            <h1 class="heading">Contact me </h1>
+
+            <div class="row">
+
+                <form action="">
+                    <input type="text" class="box" placeholder="first name">
+                    <input type="text" class="box" placeholder="last name">
+                    <input type="email" class="box" placeholder="your email">
+                    <input type="text" class="box" placeholder="your project">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                    <input type="submit" value="message" class="btn">
+                </form>
+                <div class="content">
+                    <div class="icons">
+                        <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                        <p>Gwalior,Madhya Pradesh 474002</p>
+                    </div>
+                    <div class="icons">
+                        <h3><i class="fas fa-envelope"></i> email </h3>
+                        <p>anushkas.rastogi12@gmail.com</p>
+                    </div>
+                    <div class="icons">
+                        <h3><i class="fas fa-phone"></i> phone </h3>
+                        <p>8839693627</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <script>
+        var type = new Typed('.typing-text',{
+            strings : [ 'Photographer', 'Competitive Programmer', 'Front-end Developer', 'Web Designer'],
+            typeSpeed: 120,
+            loop:true,
+        });
+    </script>
+    </body>
+</html>
